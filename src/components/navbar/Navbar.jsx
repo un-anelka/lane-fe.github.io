@@ -23,7 +23,9 @@ const Navbar = () => {
             </li>
           );
         })}
-        <Button>Login</Button>
+        <Link to={"/login"}>
+          <Button>Login</Button>
+        </Link>
       </ul>
     </div>
   );
