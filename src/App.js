@@ -14,20 +14,20 @@ import Stories from './components/pages/Stories';
 
 function App() {
   return (
-    <Router >
-      <Routes>
-        {/* <Route path='/' element={<Layout> <Home /></Layout>} /> */}
-        <Route path='/' element={<Layout> <LandingPage /></Layout>} />
-        <Route path='/about' element={<Layout><About /></Layout>} />
-        <Route path='/login' element={<Layout><Login /></Layout>} />
-        <Route path='/stories' element={<Layout><Stories /></Layout>} />
-        <Route path='/services' element={<Layout><Services /></Layout>} />
-        <Route path='/contacts' element={<Layout><Contact /></Layout>} />
-        <Route path='*' element={<Layout><NotFound /></Layout>} />
-      </Routes>
-    </Router>
-
-
+    < div className="bg-gray-50">
+      <Router  >
+        <Routes>
+          {/* <Route path='/' element={<Layout> <Home /></Layout>} /> */}
+          <Route path='/' element={<Layout> <LandingPage /></Layout>} />
+          <Route path='/about' element={<Layout><About /></Layout>} />
+          <Route path='/login' element={<Layout><Login /></Layout>} />
+          <Route path='/stories' element={<Layout><Stories /></Layout>} />
+          <Route path='/services' element={<Layout><Services /></Layout>} />
+          <Route path='/contacts' element={<Layout><Contact /></Layout>} />
+          <Route path='*' element={<Layout><NotFound /></Layout>} />
+        </Routes>
+      </Router>
+    </div>
   );
 }
 

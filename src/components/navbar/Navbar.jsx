@@ -24,7 +24,8 @@ const Navbar = () => {
           );
         })}
         <Link to={"/login"}>
-          <Button>Login</Button>
+          {/* <Button>Login</Button> */}
+          <Button>Become a Tutor</Button>
         </Link>
       </ul>
     </div>
