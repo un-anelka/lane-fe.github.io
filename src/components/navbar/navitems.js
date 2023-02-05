@@ -17,6 +17,10 @@ export const navitems = [
         label: "Services",
     },
     {
+        path: "/courses",
+        label: "Courses",
+    },
+    {
         path: "/contacts",
         label: "Contacts",
     },
