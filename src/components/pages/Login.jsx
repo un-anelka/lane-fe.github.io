@@ -1,7 +1,12 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const Login = () => {
+  const navigate = useNavigate();
+  const handleCick = () => {
+    console.log("Handle click");
+    navigate("/dashboard");
+  };
   return (
     <div>
       <section className="bg-gray-50 h-[calc(screen_-_36)] pt-16 pb-20 flex items-center justify-center">
@@ -38,7 +43,10 @@ const Login = () => {
                   <path d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0z" />
                 </svg>
               </div>
-              <button className="bg-[#002D74] rounded-xl text-white py-2 hover:scale-105 duration-300">
+              <button
+                className="bg-[#002D74] rounded-xl text-white py-2 hover:scale-105 duration-300"
+                onClick={handleCick}
+              >
                 Login
               </button>
             </form>
