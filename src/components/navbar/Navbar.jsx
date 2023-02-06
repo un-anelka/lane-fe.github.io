@@ -24,7 +24,7 @@ const Navbar = () => {
           );
         })}
         <Link to={"/login"}>
-          <Button>Become a Tutor</Button>
+          <Button>Sign In</Button>
         </Link>
       </ul>
     </div>
