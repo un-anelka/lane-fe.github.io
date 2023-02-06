@@ -14,9 +14,8 @@ const About = () => {
           help them achieve their academic goals and succeed in their studies.
         </p>
         <p className="flex-1 bg-sky-300  p-1">
-          Our web app is specifically designed for tutoring and covers a wide
-          range of subjects, from basic mathematics to complex science and
-          literature. Our tutors are experienced and knowledgeable in their
+          Our web app is specifically designed for tutoring and covers English
+          and French. Our tutors are experienced and knowledgeable in their
           respective fields and are dedicated to helping students reach their
           full potential.
         </p>
